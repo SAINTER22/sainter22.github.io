@@ -1,0 +1,44 @@
+footer{
+    background: #1D637F;
+    
+    .redes-sociales{
+        padding: 60px 0;
+         
+        .contenedor{
+            display: flex;
+            justify-content: center;
+        
+        }
+    
+        a{
+        color: white;
+        text-align: center;
+        width: 100px;
+        display: block;
+        padding: 15px 0;
+        border-radius: 5px;
+        font-size: 30px;
+    
+        margin: 0 20px;
+        }
+    
+        .facebook:hover{
+        background: #1877f2;
+        }
+    
+        .instagram:hover{
+            background: #c13584;
+        }
+    
+        .youtube:hover{
+            background: #ff0000;
+        }
+    }
+
+     .copyright{
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+
+    }
+}
