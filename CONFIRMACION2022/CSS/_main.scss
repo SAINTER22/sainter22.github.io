@@ -1,0 +1,132 @@
+/*----------CUERPO ----------*/
+
+.main{
+    
+    .contenedor{
+    overflow: visible;
+    }
+    
+    .acercade{
+        text-align: center;
+        
+        .foto{
+            margin-top: -60px;
+        
+            img{
+            vertical-align: top;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.2);
+            }
+        }
+
+        .texto{
+            color: #5a5a5a;
+            font-weight: 600;
+            font-size: 1em;
+            line-height: 30px;
+            width: 80% ;
+            margin: 40px auto 60px auto;
+            
+            h2{
+            font-size: 34px;
+            line-height: 34px;
+            margin-bottom: 40px;
+            font-weight: 600;
+            color: #77790D;
+            text-align: center;
+            }
+            
+            p{
+                .bold{
+                color: #77790D;
+                text-decoration: underline ;
+                }
+            }
+        }
+    }
+    
+    .trabajos{
+        background: #f2f2f2;
+        padding: 60px 0;
+        
+
+        .contenedor{
+        overflow: hidden;
+        }
+
+        .titulo{
+            font-size: 34px;
+            line-height: 34px;
+            margin-bottom: 40px;
+            font-weight: 600;
+            color: #333405;
+            text-align: center;
+        }
+
+        .contenedor-trabajo{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .trabajo{
+                width: 23%;
+                margin-bottom: 40px;
+            
+                .pimagen{
+                    width: 100%;
+                    margin-bottom: 10px;    
+                    
+                    img{
+                        width: 100%;
+                        vertical-align: top;
+                        border-radius: 3px ;
+                    }
+                }
+                
+
+                .descripcionimg {
+                    text-align: center;
+                
+                    .categoria{
+                    font-weight: 700;
+                    color: #5A5A5A ;
+                    margin-bottom: 10px;
+                    }
+
+                    .datos{
+                    font-size: 14px;
+                    color: #5A5A5A ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width:800px ){
+    header nav{
+        text-align: center;
+    }
+
+    .main .trabajos .contenedor .trabajo{
+        width: 46%;
+    }
+}
+
+@media screen and (max-width:500px ){
+    header .contender-texto .texto h1{
+        font-size: 35px;
+    }
+
+    header .contender-texto .texto h2{
+        font-size: 18px;
+    }
+
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
