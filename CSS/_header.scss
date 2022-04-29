@@ -1,6 +1,6 @@
 header{
     width: 100%; 
-    background: url('../IMG/San-Pedro.jpg') #D27A39;
+    background: url('../IMG/SanPedro.JPG') #D27A39;
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
@@ -10,22 +10,9 @@ header{
         height: 700px;
     }
 
-    .menu{
-        width: 100%;
-        text-align: right;
-        a{
-            color: #fff;
-            font-size: 20px;
-            font-weight: 300;
-            display: inline-block;
-            margin: 40px 20px;
-            text-decoration: none;
-            position: relative;
-
-        }
-        a:hover{
-            text-decoration: underline;
-        }
+    nav{
+        background: var(--azul);
+        
     }
 
     .textos{
@@ -44,7 +31,7 @@ header{
         }
 
         p{
-            font-weight: 300;
+            font-weight: 600;
             font-size: 25px;
             font-style: italic;
         }

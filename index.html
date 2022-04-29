@@ -9,25 +9,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="FUENTES/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="JS/bootstrap.bundle.min.js"></script>
     <script src="JS/jquery-3.6.0.min.js"></script>
     <script src="JS/efectos.js"></script>
     <script src="JS/parallax.js"></script>
 </head>
 <body>
     <header>
-        <div class="contenedor">
-            <nav class="menu">
-                <a href="#" id="btn-acercade">Acerca De</a>
-                <a href="#" id="btn-actividades">Actividades</a>
-                <a href="#" id="btn-galeria">Galería</a>
-                <a href="#" id="btn-ubicacion">Ubicación</a>
-                <a href="LOGIN/login.html" id="btn-confirmacion">Confirmación 2022</a>
-            </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid mx-5">
+                <a href="#" class="navbar-brand"><img src="IMG/LOGO.png" height="60" alt=""></a>
+                <button 
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu"
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Mostrar / Ocultar Menu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="#" class="nav-link" id="btn-acercade">Acerca De</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" id="btn-actividades">Actividades</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" id="btn-galeria">Galería</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" id="btn-ubicacion">Ubicación</a></li>
+                        <li class="nav-item"><a href="LOGIN/login.html#" class="nav-link" id="btn-confirmacion">Confirmación 2022</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
+        <div class="contenedor">
             <div class="textos">
-                <h1 class="nombre">Pastoral Juvenil <span>San Pedro</span> </h1>
+                <h1 class="nombre">Pastoral Juvenil <span>San Pedro</span></h1>
                 <p>"Ustedes son la riqueza, pero hay que transformarla en esperanza"</p>
             </div>
         </div>
