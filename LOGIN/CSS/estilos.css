@@ -48,7 +48,7 @@ footer {
 
 @media screen and (max-width: 991px) {
   body .contenedor-log {
-    padding: 15px 0; }
+    padding: 15px 5px; }
     body .contenedor-log .left {
       width: 100%;
       padding: 0; }
