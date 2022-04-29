@@ -1,0 +1,14 @@
+:root{
+    --marrón: #53221d;
+    --amarillo: #f6a740;
+    --naranja:#d27a39;
+    --azul: #1d637f;
+    --celeste: #52a3d4;
+}
+
+body{
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, var(--amarillo) 0%, var(--naranja) 100%);
+    background-attachment: fixed;
+}
+

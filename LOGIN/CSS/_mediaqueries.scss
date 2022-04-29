@@ -1,0 +1,29 @@
+@media screen and (max-width:991px){
+    body{
+        .contenedor-log{
+            padding: 15px 0;
+            .left{
+                width: 100%;
+                padding: 0;
+            }
+            .right{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        .contenedor-log{
+            .left{
+                padding: 20px; 
+            }
+            .right{
+                img{
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}

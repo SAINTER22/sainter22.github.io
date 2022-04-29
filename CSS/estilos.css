@@ -219,7 +219,7 @@ footer {
   background: #1D637F; }
   footer .redes-sociales {
     padding: 60px 0; }
-    footer .redes-sociales .contenedor {
+    footer .redes-sociales .contenedor-rs {
       display: flex;
       justify-content: center; }
     footer .redes-sociales a {

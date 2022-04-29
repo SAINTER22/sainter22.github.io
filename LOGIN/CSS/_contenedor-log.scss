@@ -1,0 +1,37 @@
+.contenedor-log{
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        padding: 20px 15px;
+        .left{
+            padding: 90px;
+            .titulo, img, .user, .pass{
+                margin-bottom: 25px;
+            }
+            img{
+                width: 100%;
+            }
+            form{
+                
+                input[type="text"]:focus,input[type="password"]:focus{
+                    border: 1px solid var(--marrón);
+                }
+                a{
+                    font-size: 16px;
+                    color: white;
+                    background: var(--azul);
+                    &:hover{
+                        color: black;
+                        background: var(--celeste);
+                    }
+                }
+            }
+        }
+        .right{
+            img{
+                padding: auto;
+                width: 100%;
+                border-radius: 5px;
+           }
+        }
+    }
