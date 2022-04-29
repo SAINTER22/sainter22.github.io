@@ -1,17 +1,5 @@
 $(document).ready(function () {
     
-    $('.menu a').each(function (index) {
-        $(this).css({
-            top:'-200px',
-        })
-
-        $(this).animate({
-            top:'0',
-        },1000+(index*500))
-    })
-
-
-
     if($(window).width()>800){
         $('header .textos').css({
             opacity:0,

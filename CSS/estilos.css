@@ -31,6 +31,9 @@ header {
     height: 700px; }
   header nav {
     background: var(--azul); }
+    header nav a:hover {
+      text-decoration: underline 2px;
+      font-weight: 600; }
   header .textos {
     width: 100%;
     color: #fff;
@@ -211,9 +214,9 @@ header {
     width: 100%;
     text-align: center; } }
 footer {
-  background: #1D637F; }
+  background: var(--azul); }
   footer .redes-sociales {
-    padding: 60px 0; }
+    padding: 30px 0; }
     footer .redes-sociales .contenedor-rs {
       display: flex;
       justify-content: center; }

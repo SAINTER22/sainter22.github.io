@@ -1,18 +1,24 @@
+:root{
+    --marrón: #53221d;
+    --amarillo: #f6a740;
+    --naranja:#d27a39;
+    --azul: #1d637f;
+    --celeste: #52a3d4;
+}
+
 *{
     box-sizing: border-box;
 }
 
 body{
-    background: white;
-    font-family: 'Work Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
     font-size: 16px;
-    
+    padding-top: 100px;
 }
 
 .contenedor{
     width: 90%;
     max-width: 1000px;
-
     margin: auto;
     overflow: hidden;
 }

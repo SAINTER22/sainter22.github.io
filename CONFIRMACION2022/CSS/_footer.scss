@@ -1,98 +1,44 @@
-/*----------FOOTER---------*/
-
 footer{
-
-    .contacto{
-        padding: 60px 0;
-        
-        .titulo{
-        font-size: 34px;
-        line-height: 34px;
-        margin-bottom: 40px;
-        font-weight: 600;
-        color: #9A7D31;
-        text-align: center;
-        }
-
-        .formulario{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        
-            input[type="text"],input[type="email"],textarea{
-                border: 2px solid #cecece;
-                border-radius: 5px;
-                padding: 15px 20px;
-                font-size: 20px;
-                color: #a4a4a4;
-            }
-
-            input[type="text"]:focus,input[type="email"]:focus,textarea:focus{
-                border: 2px solid #f8ca4a;
-            }
-
-            input[type="text"],input[type="email"]{
-                width: 49%;
-                margin-bottom: 15px
-            }
-
-            textarea{
-                width: 100%;
-                height: 100px;
-                min-width: 100%;
-                max-width: 100%;
-                min-height: 100px;
-                max-height: 300px;
-                margin-bottom: 15px;
-            }
-
-            .boton{
-                margin: auto;
-                background: #9A7D31;
-                color: white;
-                border: none;
-                border-radius: 3px;
-                padding: 15px 40px;
-                cursor: pointer;
-            }
-
-            .boton:hover{
-                background: #b98a09;
-                color:black
-            }
-        }
-    }
-    .redes-sociales{
-        background: #966224;
-        padding: 60px 0;
+    background: var(--azul);
     
-        .contenedor{
+    .redes-sociales{
+        padding: 30px 0;
+         
+        .contenedor-rs{
             display: flex;
             justify-content: center;
+        
         }
-
+    
         a{
-            color: white;
-            text-align: center;
-            width: 100px;
-            display: block;
-            padding: 15px 0;
-            border-radius: 5px;
-            font-size: 30px;
-
-            margin: 0 20px;
+        color: white;
+        text-align: center;
+        width: 100px;
+        display: block;
+        padding: 15px 0;
+        border-radius: 5px;
+        font-size: 30px;
+    
+        margin: 0 20px;
         }
-
+    
         .facebook:hover{
-            background: #1877f2;
+        background: #1877f2;
         }
-
+    
         .instagram:hover{
             background: #c13584;
         }
-
+    
         .youtube:hover{
             background: #ff0000;
         }
+    }
+
+     .copyright{
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+
     }
 }

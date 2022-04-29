@@ -1,61 +1,36 @@
-/*---------------------------HEADER--------------------*/
+nav{
+	background: var(--azul);
+	a{
+		&:hover{
+			text-decoration: underline 2px;
+			font-weight: 600;
+		}
+	}
+}
 header{
-    background: url('../IMÁGENES/San-Pedro.jpg') rgba(150, 98, 36, 0.8);
-    background-repeat: no-repeat;
-    background-position: center;
-    max-height: 600px;
-    
-    nav{
-      margin: 40px 0;
-      text-align: right;
-     
-      a{
-      margin: 0 20px;
-      color: white;
-      padding-bottom: 9px;
-      display: inline-block;
-      font-size: 1em;
-      text-decoration: none;
-      border-bottom: 2px solid transparent;
-      }
-
-     
-      a:hover{
-      border-bottom: 2px solid white;
-      }
-    }
-    
-    .contender-texto{
-      display: flex;
-      margin: 190px;
-      justify-content: center;
-      align-content: center;
-
-
-      .texto{
-        border: 2px solid rgba(255, 255, 255, .5);
-        border-radius: 3px;
-        display: inline-block;
-        text-align: center;
-        padding: 20px 60px;
-
-
-        h1, h2{
-            color: white;
-            font-weight: 300;
-            margin: 0;
-        }
-
-        h1{
-            margin-bottom: 10px;
-            font-size: 50px;
-            line-height: 50px;
-        }
-
-        h2{
-          font-size: 25px;
-          line-height: 25px;
-      }
-    }
-  }
+	background: url(../IMÁGENES/fondo.jpeg) var(--naranja);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+	
+	.textos{
+		color: #fff;
+		border: 2px solid rgba(255, 255, 255, .5);
+		margin: 130px;
+		border-radius: 3px;
+		display: inline-block;
+		text-align: center;
+		padding: 20px 60px;
+	
+		h2{
+			margin-bottom: 10px;
+			font-size: 40px;
+			line-height: 50px;
+		}
+		h3{
+			font-size: 25px;
+			line-height: 25px;
+		}
+	}
 }

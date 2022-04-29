@@ -1,175 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MI PERFIL</title>
+    <title>SAINTER: MI PERFIL</title>
+    <link rel="stylesheet" href="CSS/Normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="FUENTES/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="CSS/Normalize.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <script src="../JS/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid mx-5">
+            <button 
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menu"
+                        aria-controls="menu"
+                        aria-expanded="false"
+                        aria-label="Mostrar / Ocultar Menu"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ms-5 mb-2 mb-lg-0 ">
+                            <li class="nav-item"><a href="#" class="nav-link active" id="btn-acercade">Mi Perfil</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" id="btn-actividades">Material</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link disabled" id="btn-galeria">Panel de Tareas</a></li>
+                        </ul>
+            </div>
+            <a href="../index.html" class="navbar-brand mx-auto"><img src="../IMG/LOGO.png" height="80" alt=""></a>
+        </div>
+    </nav>
     <header>
-        <div class="contenedor">
-            <nav>
-                <a href="#">Mi Perfil</a>
-                <a href="#">Panel de Tareas</a>
-                <a href="#">Material</a>
-            </nav>
-
-            <div class="contender-texto">
-                 <div class="texto">
-                    <h1>Eymie Vera</h1>
-                    <h2>Catequista</h2>
-                 </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    
+                        <div class="textos">
+                            <h2>Juan Pérez</h2>
+                            <h4>Confirmando</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-
-    <section class="main">
-        
-        <section class="acercade">
-            <div class="contenedor">
-                <div class="foto">
-                    <img src="IMÁGENES/8.jpg" width="115px" height="115" alt="Eymie Vera">
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <section class="cont-perfil">
+                            <div class="foto">
+                                <img src="IMÁGENES/p-ejemplo.jpg" width="115px" height="115" alt="foto-perfil">
+                            </div>
+            
+                            <div class="texto">
+                                <h2>Mi Perfil</h2>
+                            </div>
+                    </section>
                 </div>
-
-                <div class="texto">
-                    <h2>Mi Perfil</h2>
-                    <p>Lorem <span class="bold" >ipsum dolor sit </span> amet consectetur adipisicing elit. Similique quo, 
-                     quasi ratione natus illum rem eius cumque voluptates quibusdam? 
-                    Eligendi eaque nisi suscipit <span class="bold" >ipsum dolor sit </span> 
-                    doloribus doloremque quos porro veritatis praesentium 
-                    consequatur.</p>
-                 </div>
             </div>
-        </section>
 
-        <section class="trabajos">
-            <div class="contenedor">
-                <h3 class="titulo">Trabajos</h3>
-        
-                <div class="contenedor-trabajo">
-                        <div class="trabajo">
-                            <div class="pimagen">
-                                <img src="IMÁGENES/1.jpg" alt="">
-                            </div>
-
-                            <div class="descripcionimg">
-                                <p class="categoria">Nombre Completo</p>
-                                <p class="datos">Eymie Vera Rodríguez</p>
-
-                            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p>Nombre: </p><p>Juan Pérez</p>
+                            <p>Fecha de Nacimiento: </p><p>01/01/01</p>
+                            <p>Dirección Domiciliaria: </p><p>Jr. Lorem ipsum 222</p>
                         </div>
 
-                        <div class="trabajo">
-                            <div class="pimagen">
-                                <img src="IMÁGENES/2.jpg" alt="">
-                            </div>
-                            <div class="descripcionimg">
-                                <p class="categoria">Nombre Completo</p>
-                                <p class="datos">Eymie Vera Rodríguez</p>
-
-                            </div>
+                        <div class="col-12 col-md-6">
+                            <p>Centro de Estudios: </p><p>Lorem, ipsum dolor.</p>
+                            <p>Número de Teléfono: </p><p>Lorem, ipsum dolor.</p>
+                            <p>Grupo: </p><a href="https://chat.whatsapp.com/L3YtH5mMlaUL1Bbdqe60BD">Grupo Prueba</a>
                         </div>
-                        <div class="trabajo">
-                            <div class="pimagen">
-                                <img src="IMÁGENES/3.jpg" alt="">
-                            </div>
-                            <div class="descripcionimg">
-                                <p class="categoria">Nombre Completo</p>
-                                <p class="datos">Eymie Vera Rodríguez</p>
-
-                            </div>
-                        </div>
-
-                        <div class="trabajo">
-                            <div class="pimagen">
-                                <img src="IMÁGENES/4.jpg" alt="">
-                            </div>
-                            <div class="descripcionimg">
-                                <p class="categoria">Nombre Completo</p>
-                                <p class="datos">Eymie Vera Rodríguez</p>
-
-                            </div>
-                        </div>
-
-                        <div class="trabajo">
-                            <div class="pimagen">
-                                <img src="IMÁGENES/5.jpg" alt="">
-                            </div>
-                            <div class="descripcionimg">
-                                <p class="categoria">Nombre Completo</p>
-                                <p class="datos">Eymie Vera Rodríguez</p>
-
-                            </div>
-                        </div>
-
-                        <div class="trabajo">
-                            <div class="pimagen">
-                                <img src="IMÁGENES/6.jpg" alt="">
-                            </div>
-                            <div class="descripcionimg">
-                                <p class="categoria">Nombre Completo</p>
-                                <p class="datos">Eymie Vera Rodríguez</p>
-
-                            </div>
-                        </div>
-
-                        <div class="trabajo">
-                            <div class="pimagen">
-                                <img src="IMÁGENES/7.jpg" alt="">
-                            </div>
-                            <div class="descripcionimg">
-                                <p class="categoria">Nombre Completo</p>
-                                <p class="datos">Eymie Vera Rodríguez</p>
-
-                            </div>
-                        </div>
-
-                        <div class="trabajo">
-                            <div class="pimagen">
-                                <img src="IMÁGENES/8.jpg" alt="">
-                            </div>
-                            <div class="descripcionimg">
-                                <p class="categoria">Nombre Completo</p>
-                                <p class="datos">Eymie Vera Rodríguez</p>
-
-                            </div>
-                        </div>
-                 </div>
-
+                    </div>
+                </div>
             </div>
-        </section>
-        
-    </section>
+        </div>
+    </main>
 
     <footer>
-        <section class="contacto">
-
-            <div class="contenedor">
-                    <h3 class="titulo">Contacto</h3>
-                    <form class="formulario" action="">
-                        <input type="text" placeholder="Nombre" name="nombre" id="" required>
-                        <input type="email" placeholder="Correo" name="correo" id="" required>
-                        <textarea name="Mensaje" id="" placeholder="Mensaje:" cols="30" rows="10"></textarea>
-                        <input class="boton" type="submit" value="Enviar"  id="" required>
-
-                    </form>
-                      
-             </div>
-        </section>
-        <section class="redes-sociales">
-            <div class="contenedor">
-                <a href="https://www.facebook.com/Pastoral-Juvenil-San-Pedro-2099504237033155" class="facebook" ><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/pastoraljuvenilsanpedro/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/channel/UCq6v5QZGG9G6yIQpdtzRMsA" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        <div class="contenedor">
+            <section class="redes-sociales">
+                <div class="contenedor-rs">
+                    <a href="https://www.facebook.com/Pastoral-Juvenil-San-Pedro-2099504237033155" class="facebook" ><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/pastoraljuvenilsanpedro/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/channel/UCq6v5QZGG9G6yIQpdtzRMsA" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+                
+            </section>
+            <div class="copyright">
+                <p>Copyright SAINTER @ 2022</p>
             </div>
-        </section>
+        </div>
     </footer>
 </body>
 </html>

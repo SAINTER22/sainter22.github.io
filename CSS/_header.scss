@@ -12,7 +12,12 @@ header{
 
     nav{
         background: var(--azul);
-        
+        a{
+            &:hover{
+                text-decoration: underline 2px;
+                font-weight: 600;
+            }
+        }
     }
 
     .textos{
