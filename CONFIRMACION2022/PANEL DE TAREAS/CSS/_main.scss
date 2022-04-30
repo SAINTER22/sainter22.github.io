@@ -8,4 +8,38 @@ main{
             
         }
     }
+    .ed-datos{
+        .modal-body{
+            text-align: center;
+            ul{
+                margin: 10px 0;
+                a{
+                    padding: 10px 0;
+                    text-decoration: none;
+                    color: var(--marrón);
+                    &:hover{
+                        background: var(--celeste);
+                        a{
+                            color: #fff;
+                            text-decoration: underline;  
+                        }                    
+                    }
+                }
+            }
+            
+        }
+    }
+    .up-catecumeno, .up-asistencia{
+        .modal-body{
+            button{
+                background: var(--naranja);
+                color: #fff;
+                &:hover{
+                    border: 2px solid var(--naranja);
+                    background: #fff;
+                    color: var(--marrón);
+                }
+            }
+        }
+    }
 }

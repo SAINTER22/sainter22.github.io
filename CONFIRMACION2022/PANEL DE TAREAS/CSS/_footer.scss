@@ -1,0 +1,42 @@
+footer{
+    background: var(--azul);
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+    .redes{
+        padding: 30px 0;    
+        a{
+        color: white;
+        width: 100px;
+        padding: 15px 0;
+        border-radius: 5px;
+        font-size: 30px;
+        margin: 0 20px;
+        display: inline-block;
+        text-decoration: none;
+            i{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .facebook:hover{
+        background: #1877f2;
+        }
+    
+        .instagram:hover{
+            background: #c13584;
+        }
+    
+        .youtube:hover{
+            background: #ff0000;
+        }
+    }
+    
+
+    .copyright{
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+
+    }
+}

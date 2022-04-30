@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAINTER: PANEL DE TAREAS</title>
-    <link rel="shortcut icon" href="../../IMG/LOGO.png"/>
+    <link rel="shortcut icon" href="../../IMG/LOGO.png" />
     <link rel="stylesheet" href="CSS/Normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,28 +16,25 @@
     <script src="JS/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid mx-5">
-            <button 
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#menu"
-                        aria-controls="menu"
-                        aria-expanded="false"
-                        aria-label="Mostrar / Ocultar Menu"
-                    >
-                        <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Mostrar / Ocultar Menu">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
-                        <ul class="navbar-nav ms-5 mb-2 mb-lg-0 ">
-                            <li class="nav-item"><a href="../Index.html" class="nav-link" id="btn-acercade">Mi Perfil</a></li>
-                            <li class="nav-item"><a href="../MATERIAL/Index.html" class="nav-link" id="btn-actividades">Material</a></li>
-                            <li class="nav-item"><a href="PANEL DE TAREAS/Index.html" class="nav-link active" id="btn-galeria">Panel de Tareas</a></li>
-                        </ul>
+                <ul class="navbar-nav ms-5 mb-2 mb-lg-0 ">
+                    <li class="nav-item"><a href="../Index.html" class="nav-link" id="btn-acercade">Mi Perfil</a></li>
+                    <li class="nav-item"><a href="../MATERIAL/Index.html" class="nav-link"
+                            id="btn-actividades">Material</a></li>
+                    <li class="nav-item"><a href="PANEL DE TAREAS/Index.html" class="nav-link active"
+                            id="btn-galeria">Panel de Tareas</a></li>
+                </ul>
             </div>
-            <a href="../../index.html" class="navbar-brand mx-auto"><img src="../../IMG/LOGO.png" height="80" alt=""></a>
+            <a href="../../index.html" class="navbar-brand mx-auto"><img src="../../IMG/LOGO.png" height="80"
+                    alt=""></a>
         </div>
     </nav>
     <header class="container">
@@ -54,236 +52,423 @@
             <div class="row">
                 <div class="col-6 col-md-3">
                     <div class="tarea">
-                        <a class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#reg-asistencia"><i class="fa fa-list"></i></a>
+                        <a class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#reg-asistencia"><i
+                                class="fa fa-list"></i></a>
                         <h5>Registrar Asistencia</h5>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
                     <div class="tarea">
-                        <a  class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#ag-catecumeno"><i class="fa fa-user-circle"></i></a>
+                        <a class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#ag-catecumeno"><i
+                                class="fa fa-user-circle"></i></a>
                         <h5>Agregar Catecúmeno</h5>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
                     <div class="tarea">
-                        <a class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#em-reportes"><i class="fa fa-line-chart"></i></a>
+                        <a class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#em-reportes">
+                            <i class="fa fa-line-chart"></i></a>
                         <h5>Emitir Reportes</h5>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
                     <div class="tarea">
-                        <a class="" href="#" role="button"><i class="fa fa-group"></i></a>
+                        <a class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#em-comunicado">
+                            <i class="fa fa-newspaper-o"></i></a>
+                        <h5>Emitir Comunicado</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 col-md-3">
+                    <div class="tarea">
+                        <a class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#ag-grupo">
+                            <i class="fa fa-group"></i></a>
                         <h5>Agregar Grupo</h5>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
                     <div class="tarea">
-                        <a class="" href="#" role="button"><i class="fa fa-pencil"></i></a>
+                        <a class="" href="#" role="button" data-bs-toggle="modal" data-bs-target="#ed-datos">
+                            <i class="fa fa-pencil"></i></a>
                         <h5>Editar Datos</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="tarea">
-                        <a class="" href="#" role="button"><i class="fa fa-newspaper-o"></i></a>
-                        <h5>Emitir Comunicado</h5>
                     </div>
                 </div>
             </div>
         </div>
 
-
-        <div id="reg-asistencia" class="modal fade" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1">
-					<div class="modal-dialog">
-						
-						<div class="modal-content">
-						
-							<div class="modal-header">
-								<h5 class="modal-title">Grupo</h5>
-								<button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-							</div>
-
-							<div class="modal-body">
-								<table class="table">
-                                    <thead>
-                                      <tr>
+        <!--MODAL DE REGISTRO DE ASISTENCIA-->
+        <div id="reg-asistencia" class="reg-asistencia modal fade" tabindex="-1" aria-hidden="true"
+            aria-labelledby="label-modal-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Grupo</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Fecha: </label>
+                                <input type="date" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">Nombre</th>
                                         <th scope="col">Asistencia</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
                                         <th scope="row">1</th>
                                         <td>Camacho Brandon</td>
                                         <td>
                                             <div class="rd-boton">
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <input class="form-check-input" type="radio" name="asistencia01"
+                                                        id="inlineRadio1" value="option1">
                                                     <label class="form-check-label" for="inlineRadio1">P</label>
                                                 </div>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                    <input class="form-check-input" type="radio" name="asistencia01"
+                                                        id="inlineRadio2" value="option2">
                                                     <label class="form-check-label" for="inlineRadio2">T</label>
                                                 </div>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                                    <input class="form-check-input" type="radio" name="asistencia01"
+                                                        id="inlineRadio3" value="option3">
                                                     <label class="form-check-label" for="inlineRadio3">F</label>
                                                 </div>
                                             </div>
                                         </td>
-                                      </tr>
-                                      <tr>
+                                    </tr>
+                                    <tr>
                                         <th scope="row">2</th>
                                         <td>Huaripata Wilmer</td>
                                         <td>
                                             <div class="rd-boton">
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <input class="form-check-input" type="radio" name="asistencia02"
+                                                        id="inlineRadio1" value="option1">
                                                     <label class="form-check-label" for="inlineRadio1">P</label>
                                                 </div>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                    <input class="form-check-input" type="radio" name="asistencia02"
+                                                        id="inlineRadio2" value="option2">
                                                     <label class="form-check-label" for="inlineRadio2">T</label>
                                                 </div>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                                    <input class="form-check-input" type="radio" name="asistencia02"
+                                                        id="inlineRadio3" value="option3">
                                                     <label class="form-check-label" for="inlineRadio3">F</label>
                                                 </div>
                                             </div>
                                         </td>
-                                      </tr>
-                                      
-                                    </tbody>
-                                  </table>
-							</div>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	
-							<div class="modal-footer">
-								<button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
-								<button type="button" class="btn btn-primary">Guardar</button>
-							</div>
-						</div>
-					</div>
-				</div>
-            
-                <div id="ag-catecumeno" class="modal fade" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1">
-					<div class="modal-dialog">
-						
-						<div class="modal-content">
-						
-							<div class="modal-header">
-								<h5 class="modal-title">Agregar Catecúmeno</h5>
-								<button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-							</div>
+        <!--MODAL DE AGREGAR CATECUMENO-->
+        <div id="ag-catecumeno" class="ag-catecumeno modal fade" tabindex="-1" aria-hidden="true"
+            aria-labelledby="label-modal-2">
+            <div class="modal-dialog">
 
-							<div class="modal-body">
-								<form>
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">N° de Recibo</label>
-                                        <input type="number" class="form-control" id="exampleInputPassword1">
-                                      </div>
-                                    <div class="mb-3">
-                                      <label for="exampleInputEmail1" class="form-label">Nombres y Apellidos</label>
-                                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    </div>
-                                    <div class="mb-3">
-                                      <label for="exampleInputPassword1" class="form-label">Institución Educativa</label>
-                                      <input type="text" class="form-control" id="exampleInputPassword1">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Fecha de Nacimiento</label>
-                                        <input type="date" class="form-control" id="exampleInputPassword1">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Teléfono</label>
-                                        <input type="number" class="form-control" id="exampleInputPassword1">
-                                    </div>
+                <div class="modal-content">
 
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Bautizo:</label>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                            <label class="form-check-label" for="inlineRadio1">Sí</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">No</label>
-                                        </div>
-                                    </div>
+                    <div class="modal-header">
+                        <h5 class="modal-title">Agregar Catecúmeno</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
 
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Primera Comunión:</label>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                            <label class="form-check-label" for="inlineRadio1">Sí</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">No</label>
-                                        </div>
-                                    </div>
-                                  </form>
-							</div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">N° de Recibo</label>
+                                <input type="number" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nombres y Apellidos</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Institución Educativa</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Fecha de Nacimiento</label>
+                                <input type="date" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Teléfono</label>
+                                <input type="number" class="form-control" id="exampleInputPassword1">
+                            </div>
 
-	
-							<div class="modal-footer">
-								<button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
-								<button type="button" class="btn btn-primary">Guardar</button>
-							</div>
-						</div>
-					</div>
-				</div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Bautizo:</label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="rbBautizo" id="inlineRadio1"
+                                        value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="rbBautizo" id="inlineRadio2"
+                                        value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">No</label>
+                                </div>
+                            </div>
 
-                <div id="em-reportes" class="modal fade" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1">
-					<div class="modal-dialog">
-						
-						<div class="modal-content">
-						
-							<div class="modal-header">
-								<h5 class="modal-title">Grupo</h5>
-								<button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-							</div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Primera Comunión:</label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="rbPComunion" id="inlineRadio1"
+                                        value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="rbPComunion" id="inlineRadio2"
+                                        value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">No</label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Grupo </label>
+                                <select name="pais" id="pais" class="form-select">
+                                    <option value="SMP">San Martín de Porres</option>
+                                    <option value="SRL">Santa Rosa de Lima</option>
+                                    <option value="SP1">San Pedro</option>
+                                    <option value="SP2">San Pablo</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
 
-							<div class="modal-body">
-								<table class="table">
-                                    <thead>
-                                      <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Nombre</th>
-                                        <th scope="col">Asistencia</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <th scope="row">1</th>
-                                        <td>Camacho Brandon</td>
-                                        <td>F</div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">2</th>
-                                        <td>Huaripata Wilmer</td>
-                                        <td>P</div>
-                                      </tr>
-                                      
-                                    </tbody>
-                                  </table>
-							</div>
 
-	
-							<div class="modal-footer">
-								<button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
-								<button type="button" class="btn btn-primary">Exportar</button>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--MODAL DE GENERAR REPORTES-->
+        <div id="em-reportes" class="em-reportes modal fade" tabindex="-1" aria-hidden="true"
+            aria-labelledby="label-modal-3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Grupo</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Asistencia</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Camacho Brandon</td>
+                                    <td>F</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Huaripata Wilmer</td>
+                                    <td>P</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Exportar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--MODAL DE EMITIR COMUNICADO-->
+        <div id="em-comunicado" class="em-comunicado modal fade" tabindex="-1" aria-hidden="true"
+            aria-labelledby="label-modal-4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Emitir Comunicado</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exTitulo" class="form-label">Título</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exTexto" class="form-label">Texto</label>
+                                <textarea class="form-control" name="mensaje" id="mensaje"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--MODAL DE AGREGAR GRUPO-->
+        <div id="ag-grupo" class="ag-grupo modal fade" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Agregar Grupo</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exTitulo" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--MODAL DE EDITAR DATOS-->
+        <div id="ed-datos" class="ed-datos modal fade" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Editar Datos</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <ul class="list-group">
+                            <a class="border-bottom" role="button" data-bs-toggle="modal" data-bs-target="#up-catecumeno">
+                                Datos Catecumeno</a>
+                            <a class="border-bottom " role="button" data-bs-toggle="modal" data-bs-target="#up-asistencia">
+                                Asistencia</a>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SUBMODAL DATOS CONFIRMANDO-->
+        <div id="up-catecumeno" class="up-catecumeno modal fade" tabindex="-1" aria-hidden="true"
+            aria-labelledby="label-modal-4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Editar Datos Catecumeno</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SUBMODAL ASISTENCIA-->
+        <div id="up-asistencia" class="up-asistencia modal fade" tabindex="-1" aria-hidden="true"
+            aria-labelledby="label-modal-4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Editar Asistencia</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    
+
+    <footer>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="redes">
+                        <div class="row">
+                            <div class="col-3 col-md-4">
+                                <a href="https://www.facebook.com/Pastoral-Juvenil-San-Pedro-2099504237033155"
+                                    target="_blank" class="facebook"><i class="fa fa-facebook-official"
+                                        aria-hidden="true"></i></a>
+                            </div>
+
+                            <div class="col-3 col-md-4">
+                                <a href="https://www.instagram.com/pastoraljuvenilsanpedro/" target="_blank"
+                                    class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col-3 col-md-4">
+                                <a href="https://www.youtube.com/channel/UCq6v5QZGG9G6yIQpdtzRMsA" target="_blank"
+                                    class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright">
+                        <p>Copyright SAINTER @ 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
