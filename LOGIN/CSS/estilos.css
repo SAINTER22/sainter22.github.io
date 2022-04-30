@@ -39,7 +39,6 @@ body {
 
 footer {
   background: var(--azul);
-  position: absolute;
   bottom: 0;
   width: 100%; }
   footer .copyright {
@@ -59,6 +58,8 @@ footer {
   body .contenedor-log .left {
     padding: 20px; }
   body .contenedor-log .right img {
-    padding: 20px 0; } }
+    padding: 20px 0; }
+  body footer {
+    position: absolute; } }
 
 /*# sourceMappingURL=estilos.css.map */

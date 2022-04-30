@@ -215,25 +215,25 @@ header {
     text-align: center; } }
 footer {
   background: var(--azul); }
-  footer .redes-sociales {
+  footer .redes {
     padding: 30px 0; }
-    footer .redes-sociales .contenedor-rs {
-      display: flex;
-      justify-content: center; }
-    footer .redes-sociales a {
+    footer .redes a {
       color: white;
-      text-align: center;
       width: 100px;
-      display: block;
       padding: 15px 0;
       border-radius: 5px;
       font-size: 30px;
-      margin: 0 20px; }
-    footer .redes-sociales .facebook:hover {
+      margin: 0 20px;
+      display: inline-block;
+      text-decoration: none; }
+      footer .redes a i {
+        display: flex;
+        justify-content: center; }
+    footer .redes .facebook:hover {
       background: #1877f2; }
-    footer .redes-sociales .instagram:hover {
+    footer .redes .instagram:hover {
       background: #c13584; }
-    footer .redes-sociales .youtube:hover {
+    footer .redes .youtube:hover {
       background: #ff0000; }
   footer .copyright {
     text-align: center;

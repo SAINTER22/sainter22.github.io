@@ -14,45 +14,40 @@ body {
   font-size: 16px;
   padding-top: 100px; }
 
-.contenedor {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden; }
-
 nav {
   background: var(--azul); }
   nav a:hover {
     text-decoration: underline 2px;
     font-weight: 600; }
 
-main .menu-tabs .nav {
+main .menu-tabs .nav button {
+  margin: 10px 0;
+  background: var(--marrón);
   color: #fff; }
-  main .menu-tabs .nav button {
-    background: var(--celeste);
-    margin: 10px 0; }
+main .menu-tabs .tab-content .card a {
+  background: var(--amarillo); }
 
 footer {
   background: var(--azul); }
-  footer .redes-sociales {
+  footer .redes {
     padding: 30px 0; }
-    footer .redes-sociales .contenedor-rs {
-      display: flex;
-      justify-content: center; }
-    footer .redes-sociales a {
+    footer .redes a {
       color: white;
-      text-align: center;
       width: 100px;
-      display: block;
       padding: 15px 0;
       border-radius: 5px;
       font-size: 30px;
-      margin: 0 20px; }
-    footer .redes-sociales .facebook:hover {
+      margin: 0 20px;
+      display: inline-block;
+      text-decoration: none; }
+      footer .redes a i {
+        display: flex;
+        justify-content: center; }
+    footer .redes .facebook:hover {
       background: #1877f2; }
-    footer .redes-sociales .instagram:hover {
+    footer .redes .instagram:hover {
       background: #c13584; }
-    footer .redes-sociales .youtube:hover {
+    footer .redes .youtube:hover {
       background: #ff0000; }
   footer .copyright {
     text-align: center;

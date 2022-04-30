@@ -1,5 +1,10 @@
 $(document).ready(function () {
     
+    var acercade=$('#acercade').offset().top,
+        actividades=$('#actividades').offset().top,
+        galeria=$('#galeria').offset().top,
+        ubicacion=$('#ubicacion').offset().top;
+
     if($(window).width()>800){
         $('header .textos').css({
             opacity:0,
@@ -11,12 +16,6 @@ $(document).ready(function () {
             marginTop:'-52px'
         },1500);
     }
-
-
-    var acercade=$('#acercade').offset().top,
-        actividades=$('#actividades').offset().top,
-        galeria=$('#galeria').offset().top,
-        ubicacion=$('#ubicacion').offset().top;
 
     $('#btn-acercade').on('click',function (event) {
         event.preventDefault();

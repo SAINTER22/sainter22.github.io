@@ -1,0 +1,30 @@
+@charset "UTF-8";
+:root {
+  --marrón: #53221d;
+  --amarillo: #f6a740;
+  --naranja:#d27a39;
+  --azul: #1d637f;
+  --celeste: #52a3d4; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-top: 100px; }
+
+nav {
+  background: var(--azul); }
+  nav a:hover {
+    text-decoration: underline 2px;
+    font-weight: 600; }
+
+main .tarea {
+  text-align: center; }
+  main .tarea a {
+    text-decoration: none;
+    font-size: 60px;
+    color: var(--naranja); }
+
+/*# sourceMappingURL=estilos.css.map */

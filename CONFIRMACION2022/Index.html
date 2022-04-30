@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAINTER: MI PERFIL</title>
+    <link rel="shortcut icon" href="../../IMG/LOGO.png"/>
     <link rel="stylesheet" href="CSS/Normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +33,7 @@
                         <ul class="navbar-nav ms-5 mb-2 mb-lg-0 ">
                             <li class="nav-item"><a href="#" class="nav-link active" id="btn-acercade">Mi Perfil</a></li>
                             <li class="nav-item"><a href="MATERIAL/Index.html" class="nav-link" id="btn-actividades">Material</a></li>
-                            <li class="nav-item"><a href="PANEL DE TAREAS/Index.html" class="nav-link disabled" id="btn-galeria">Panel de Tareas</a></li>
+                            <li class="nav-item"><a href="PANEL DE TAREAS/Index.html" class="nav-link" id="btn-galeria">Panel de Tareas</a></li>
                         </ul>
             </div>
             <a href="../index.html" class="navbar-brand mx-auto"><img src="../IMG/LOGO.png" height="80" alt=""></a>
@@ -45,7 +46,7 @@
                     
                         <div class="textos">
                             <h2>Juan Pérez</h2>
-                            <h4>Confirmando</h4>
+                            <h4>Catequista</h4>
                         </div>
                     </div>
                 </div>
@@ -57,31 +58,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <section class="cont-perfil">
-                            <div class="foto">
-                                <img src="IMÁGENES/p-ejemplo.jpg" width="115px" height="115" alt="foto-perfil">
-                            </div>
+                    <div class="cont-perfil">
+                        <div class="foto">
+                            <img src="IMÁGENES/p-ejemplo.jpg" width="115px" height="115" alt="foto-perfil">
+                        </div>
             
-                            <div class="texto">
-                                <h2>Mi Perfil</h2>
-                            </div>
-                    </section>
+                        <div class="texto  my-3">
+                            <h2>Mi Perfil</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <p>Nombre: </p><p>Juan Pérez</p>
-                            <p>Fecha de Nacimiento: </p><p>01/01/01</p>
-                            <p>Dirección Domiciliaria: </p><p>Jr. Lorem ipsum 222</p>
-                        </div>
+                    <div class="card">
+                        <div class="row card-body">
+                            <div class="left col-12 col-md-6">
+                                <h5>Nombres y Apellidos: </h5>
+                                <p><i class="fa fa-user"></i> Juan Pérez</p>
 
-                        <div class="col-12 col-md-6">
-                            <p>Centro de Estudios: </p><p>Lorem, ipsum dolor.</p>
-                            <p>Número de Teléfono: </p><p>Lorem, ipsum dolor.</p>
-                            <p>Grupo: </p><a href="https://chat.whatsapp.com/L3YtH5mMlaUL1Bbdqe60BD">Grupo Prueba</a>
+                                <h5>Fecha de Nacimiento: </h5>
+                                <p><i class="fa fa-calendar"></i>01/01/01</p>
+
+                                <h5>Dirección Domiciliaria: </h5>
+                                <p><i class="fa fa-home"></i>Jr. Lorem ipsum 222</p>
+                            </div>
+    
+                            <div class="right col-12 col-md-6">
+                                <h5>Centro de Estudios: </h5>
+                                <p><i class="fa fa-book"></i>Lorem, ipsum dolor.</p>
+                                <h5>Número de Teléfono: </h5>
+                                <p><i class="fa fa-phone"></i> Lorem, ipsum dolor.</p>
+                                <h5>Grupo: </h5>
+                                <a href="https://chat.whatsapp.com/L3YtH5mMlaUL1Bbdqe60BD" class="wtsp">
+                                <i class="fa fa-whatsapp"></i>Grupo Prueba</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -90,19 +102,33 @@
     </main>
 
     <footer>
-        <div class="contenedor">
-            <section class="redes-sociales">
-                <div class="contenedor-rs">
-                    <a href="https://www.facebook.com/Pastoral-Juvenil-San-Pedro-2099504237033155" class="facebook" ><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/pastoraljuvenilsanpedro/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://www.youtube.com/channel/UCq6v5QZGG9G6yIQpdtzRMsA" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="redes">
+                        <div class="row">
+                            <div class="col-3 col-md-4">
+                                <a href="https://www.facebook.com/Pastoral-Juvenil-San-Pedro-2099504237033155" target="_blank" class="facebook" ><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                            </div>
+                        
+                        <div class="col-3 col-md-4">
+                            <a href="https://www.instagram.com/pastoraljuvenilsanpedro/" target="_blank" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-3 col-md-4">
+                            <a href="https://www.youtube.com/channel/UCq6v5QZGG9G6yIQpdtzRMsA" target="_blank" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                
-            </section>
-            <div class="copyright">
-                <p>Copyright SAINTER @ 2022</p>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright">
+                        <p>Copyright SAINTER @ 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
     </footer>
 </body>
 </html>

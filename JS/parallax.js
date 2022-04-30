@@ -1,8 +1,8 @@
 $(document).ready(function() {
     
-    var windowWidth=$(window).width();
+    
     $(window).scroll(function () {
-        
+        var windowWidth=$(window).width();
         if (windowWidth>800) {
             var scroll=$(window).scrollTop();
 
