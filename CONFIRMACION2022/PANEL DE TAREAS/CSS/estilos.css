@@ -48,10 +48,7 @@ main .up-catecumeno .modal-body button, main .up-asistencia .modal-body button {
     color: var(--marrón); }
 
 footer {
-  background: var(--azul);
-  bottom: 0;
-  position: fixed;
-  width: 100%; }
+  background: var(--azul); }
   footer .redes {
     padding: 30px 0; }
     footer .redes a {

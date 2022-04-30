@@ -21,9 +21,7 @@ nav {
     font-weight: 600; }
 
 main .menu-tabs .nav button {
-  margin: 10px 0;
-  background: var(--marrón);
-  color: #fff; }
+  margin: 10px 0; }
 main .menu-tabs .tab-content .card a {
   background: var(--amarillo); }
 
