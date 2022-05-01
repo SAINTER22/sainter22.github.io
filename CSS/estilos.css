@@ -22,7 +22,7 @@ body {
 
 header {
   width: 100%;
-  background: url("../IMG/SanPedro.JPG") #D27A39;
+  background: url("../IMG/SanPedroSAT2_.jpg") #D27A39;
   background-size: cover;
   background-attachment: fixed;
   background-position: center 0; }
@@ -55,20 +55,13 @@ header {
   header .contenedor {
     position: static;
     height: auto; }
-  header .menu a {
-    margin: 15px 20px; }
   header .textos {
     position: static;
-    margin: 100px 0; }
+    margin: 150px 0; }
     header .textos .nombre {
       font-size: 30px; }
     header .textos p {
-      font-size: 18px; }
-  header .menu {
-    text-align: center; }
-    header .menu a {
-      margin-top: 10px 20px;
-      font-size: 14px; } }
+      font-size: 18px; } }
 .main {
   background: url("../IMG/bg-textura.png");
   background-repeat: repeat; }
