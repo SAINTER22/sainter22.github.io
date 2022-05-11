@@ -9,8 +9,7 @@
 
 body {
   font-family: 'Open Sans',Arial, Helvetica, sans-serif;
-  background: linear-gradient(to top, var(--amarillo) 0%, var(--naranja) 100%);
-  background-attachment: fixed; }
+  background: var(--azul); }
 
 .contenedor-log {
   background: white;
@@ -36,30 +35,5 @@ body {
     padding: auto;
     width: 100%;
     border-radius: 5px; }
-
-footer {
-  background: var(--azul);
-  bottom: 0;
-  width: 100%; }
-  footer .copyright {
-    padding: 5px 0;
-    color: #fff; }
-
-@media screen and (max-width: 991px) {
-  body .contenedor-log {
-    padding: 15px 0;
-    margin: 10px auto; }
-    body .contenedor-log .left {
-      width: 100%;
-      padding: 0; }
-    body .contenedor-log .right {
-      display: none; } }
-@media screen and (max-width: 1200px) {
-  body .contenedor-log .left {
-    padding: 20px; }
-  body .contenedor-log .right img {
-    padding: 20px 0; }
-  body footer {
-    position: absolute; } }
 
 /*# sourceMappingURL=estilos.css.map */
