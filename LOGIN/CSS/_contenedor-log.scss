@@ -1,37 +1,26 @@
-.contenedor-log{
+.contenedor{
         background: white;
         margin: 20px auto;
         border-radius: 5px;
-        padding: 20px 15px;
-        .left{
-            padding: 90px;
-            .titulo, img, .user, .pass{
+        padding: 10px 20px;
+        .titulo, img, .user, .pass{
                 margin-bottom: 25px;
             }
-            img{
+        img{
                 width: 100%;
-            }
-            form{
-                
-                input[type="text"]:focus,input[type="password"]:focus{
-                    border: 1px solid var(--marrón);
-                }
-                a{
-                    font-size: 16px;
+        }
+        .formulario{
+            a{
+                background: var(--amarillo);
+                &:hover{
+                    background: var(--celeste);
                     color: white;
-                    background: var(--azul);
-                    &:hover{
-                        color: black;
-                        background: var(--celeste);
-                    }
                 }
             }
         }
-        .right{
-            img{
-                padding: auto;
-                width: 100%;
-                border-radius: 5px;
-           }
+        
+        p{
+            margin-top: 40px;
+            margin-bottom: 5px;
         }
     }
